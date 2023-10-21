@@ -1,0 +1,107 @@
+///////////////////////             PROYECTO NODE EN UDEMY  /////////////////////////////
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm init
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i (-D) express --save 
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i mongoose --save
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i multer --save
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i validator --save
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i cors --save
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i nodemon --save
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i pug
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i -D tailwindcss autoprefixer postcss postcss-cli
+
+C:\Users\GERMAN\OneDrive\Escritorio\api-rest-node> npx tailwindcss init
+
+C:\Users\GERMAN\OneDrive\Escritorio\api-rest-node> npm run css
+//////////// DESPUES DE EJECUTAR PARA QUE SE GENEREN LOS ARCHIVOS CSS, NUEVAMENTE SE EJECUTAN PARA QUE SE GENERE EL CODIGO CSS. ////////////////////
+C:\Users\GERMAN\OneDrive\Escritorio\api-rest-node> npm run css
+
+////////////////
+ejecutar el proyecto:
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices>           npm run server
+
+http://localhost:3000/auth/login
+
+http://localhost:3000/auth/registro
+
+
+///////////// INCLUYENDO LA BASE DE DATOS     ///////////////////////////////////////////////////
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i sequelize mysql
+
+mysql -u root -p
+
+----> pedirá la clave:
+
+mysql> CREATE DATABASE bienesraices_node_mvc
+-> ;
+
+tableplus
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> ----- > npm  install mysql2 
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> ----- > npm  i dotenv 
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i express-validator
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i bcrypt
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i nodemailer
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i csurf cookie-parser
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm install jsonwebtoken
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm install -D webpack webpack-cli
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm install -D concurrently
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm run db:importar
+
+C:\Users\GERMAN\OneDrive\Escritorio\bienesraices> npm i dropzone@5.9.3
+
+///////// ESTE PROYECTO SE EJECUTA CON npm run server, DEBE ESTAR ARRIBA EL MySQL80 Y EL MONGODB
+PARA VOLVER INSTALAR TODOS LOS PAQUETES Y MODULOS: npm install
+
+
+
+
+
+
+
+/*   const mongoose = require("mongoose");
+  const express = require("express");
+  const app = express();
+  //const car = require("./routes/car");
+  //const user = require("./routes/user");
+  app.use(express.json());
+ /*  app.use("/api/cars/", car);
+  app.use("/api/user/", user); 
+  const port = process.env.PORT || 3003;
+  app.listen(port, () => console.log("Escuchando Puerto: " + port));
+
+mongoose.connect("mongodb://127.0.0.1:27017/carsdb", {
+    useNewUrlParser: true,
+  })
+  .then(() => console.log("Conectado correctamente a MongoDB"))
+  .catch(() => console.log("Error al conectarse a MongoDB")); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
